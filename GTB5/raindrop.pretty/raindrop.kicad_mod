@@ -1,0 +1,18 @@
+(module raindrop (layer F.Cu) (tedit 60C9216C)
+  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  )
+  (pad 1 smd custom (at -0.2 -0.2) (size 1 0.7) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 0.391256 -1.984851) (xy 0.771592 -1.434969) (xy 1.146222 -0.731499) (xy 1.420361 -0.048712) (xy 1.503684 0.373942)
+         (xy 1.270151 1.130199) (xy 0.682344 1.65776) (xy 0.1 1.8) (xy -0.461056 1.648497) (xy -0.818109 1.444939)
+         (xy -1.226884 0.842015) (xy -1.236235 -0.002601) (xy -0.852047 -0.981795) (xy -0.668684 -1.274432) (xy -0.248463 -1.849443)
+         (xy 0.046802 -2.177539) (xy 0.1 -2.206872) (xy 0.391256 -1.984851)) (width 0.01))
+    ))
+)
